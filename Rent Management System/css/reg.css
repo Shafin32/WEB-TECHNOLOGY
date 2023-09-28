@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 15px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.main-user-info
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+.user-input-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 5px;
+}
+label
+{
+    font-size: 15px;
+    margin: 5px 0px;
+    font-weight: 400;
+}
+.user-input-box input
+{
+    height: 35px;
+    width: 95%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #333;
+    padding: 0px 5px;
+}
+#reg-textarea
+{
+    height: 35px;
+    width: 95%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #333;
+    padding: 0px 5px;
+}
+
+#edit-textarea
+{
+    height: 114px;
+    width: 95%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #333;
+    padding: 0px 5px;
+}
+.gender-input-box 
+{   
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 5px;
+}
+.category
+{
+    margin: 5px 0px;
+}
+.category input
+{
+    margin-right: 5px;
+}
+nav
+{
+    margin-right: 11px;
+    font-size: 18px;
+    text-align: right;
+}
+.header
+{   
+    height: 120px;
+}
+.button
+{
+    font-size: 15px;
+    font-family: serif;
+    font-weight: bold;
+    height: 35px;
+    width: 410px;
+    margin: 5px 10px 5px 0px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+}
+.button:hover
+{
+    background-color: #333;
+    color: skyblue;
+}
+.label-bottom
+{
+    text-align: center;
+}
+p
+{
+    color: red;
+}
